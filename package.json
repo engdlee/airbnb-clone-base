@@ -45,5 +45,30 @@
     "postcss": "^8.4.21",
     "prisma": "^4.12.0",
     "tailwindcss": "^3.3.1"
-  }
+  },
+  "description": "Airbnb Clone Base Website",
+  "main": "next.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/engdlee/airbnb-clone-base.git"
+  },
+  "keywords": [
+    "nextjs",
+    "airbnb",
+    "react",
+    "booking",
+    "rent",
+    "reservation",
+    "calendar",
+    "property",
+    "properties",
+    "vacation",
+    "clone"
+  ],
+  "author": "David Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/engdlee/airbnb-clone-base/issues"
+  },
+  "homepage": "https://github.com/engdlee/airbnb-clone-base#readme"
 }
