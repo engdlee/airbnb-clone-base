@@ -1,6 +1,8 @@
-# Ordering App Base
+# Airbnb Clone Base
 
 This project was created watching and following this [video](https://www.youtube.com/watch?v=c_-b_isI4vg)
+
+You can see the project working here: [Airbnb Clone Base](https://test-project-airbnb-base.vercel.app/)
 
 ## To run it:
 
@@ -54,5 +56,3 @@ This project was created watching and following this [video](https://www.youtube
 -   Click on `CREATE` a modal will show
 -   Copy the `Client ID` is the `GOOGLE_CLIENT_ID`
 -   Copy the `Client secret` is the `GOOGLE_CLIENT_SECRET`
-
-You can see the project working here: (Airbnb Clone Base)[https://test-project-airbnb-base.vercel.app/]
