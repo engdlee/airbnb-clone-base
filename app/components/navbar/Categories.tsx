@@ -1,6 +1,6 @@
 'use client';
 
-import Container from '../Container';
+import Container from '@/app/components/Container';
 
 import { IoDiamond } from 'react-icons/io5';
 import { BsSnow } from 'react-icons/bs';
@@ -17,7 +17,7 @@ import {
     GiWindmill,
 } from 'react-icons/gi';
 import { MdOutlineVilla } from 'react-icons/md';
-import CategoryBox from '../CategoryBox';
+import CategoryBox from '@/app/components/CategoryBox';
 import { usePathname, useSearchParams } from 'next/navigation';
 
 export const categories = [

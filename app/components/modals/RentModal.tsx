@@ -9,14 +9,14 @@ import { useMemo, useState } from 'react';
 
 import useRentModal from '@/app/hooks/useRentModal';
 
-import Modal from './Modal';
-import Counter from '../inputs/Counter';
-import CategoryInput from '../inputs/CategoryInput';
-import CountrySelect from '../inputs/CountrySelect';
-import { categories } from '../navbar/Categories';
-import ImageUpload from '../inputs/ImageUpload';
-import Input from '../inputs/Input';
-import Heading from '../Heading';
+import Modal from '@/app/components/modals/Modal';
+import Counter from '@/app/components/inputs/Counter';
+import CategoryInput from '@/app/components/inputs/CategoryInput';
+import CountrySelect from '@/app/components/inputs/CountrySelect';
+import { categories } from '@/app/components/navbar/Categories';
+import ImageUpload from '@/app/components/inputs/ImageUpload';
+import Input from '@/app/components/inputs/Input';
+import Heading from '@/app/components/Heading';
 
 enum STEPS {
     CATEGORY = 0,

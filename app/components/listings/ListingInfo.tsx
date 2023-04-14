@@ -6,8 +6,8 @@ import dynamic from 'next/dynamic';
 import useCountries from '@/app/hooks/useCountries';
 import { SafeUser } from '@/app/types';
 
-import Avatar from '../Avatar';
-import ListingCategory from './ListingCategory';
+import Avatar from '@/app/components/Avatar';
+import ListingCategory from '@/app/components/listings/ListingCategory';
 
 const Map = dynamic(() => import('../Map'), { ssr: false });
 

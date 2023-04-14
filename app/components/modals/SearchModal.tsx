@@ -8,12 +8,14 @@ import { Range } from 'react-date-range';
 import dynamic from 'next/dynamic';
 
 import useSearchModal from '@/app/hooks/useSearchModal';
-import CountrySelect, { CountrySelectValue } from '../inputs/CountrySelect';
+import CountrySelect, {
+    CountrySelectValue,
+} from '@/app/components/inputs/CountrySelect';
 
-import Modal from './Modal';
-import Calendar from '../inputs/Calendar';
-import Counter from '../inputs/Counter';
-import Heading from '../Heading';
+import Modal from '@/app/components/modals/Modal';
+import Calendar from '@/app/components/inputs/Calendar';
+import Counter from '@/app/components/inputs/Counter';
+import Heading from '@/app/components/Heading';
 
 enum STEPS {
     LOCATION = 0,

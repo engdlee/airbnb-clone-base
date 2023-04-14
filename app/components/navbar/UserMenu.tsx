@@ -2,11 +2,11 @@
 
 import { useRouter } from 'next/navigation';
 import { AiOutlineMenu } from 'react-icons/ai';
-import Avatar from '../Avatar';
+import Avatar from '@/app/components/Avatar';
 import { useCallback, useState } from 'react';
 import { signOut } from 'next-auth/react';
 
-import MenuItem from './MenuItem';
+import MenuItem from '@/app/components/navbar/MenuItem';
 
 import useRegisterModal from '@/app/hooks/useRegisterModal';
 import useLoginModal from '@/app/hooks/useLoginModal';

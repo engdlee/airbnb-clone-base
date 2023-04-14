@@ -7,8 +7,8 @@ import useCountries from '@/app/hooks/useCountries';
 import { useCallback, useMemo } from 'react';
 import { format } from 'date-fns';
 import Image from 'next/image';
-import HeartButton from '../HeartButton';
-import Button from '../Button';
+import HeartButton from '@/app/components/HeartButton';
+import Button from '@/app/components/Button';
 
 interface ListingCardProps {
     data: SafeListing;

@@ -5,9 +5,9 @@ import { toast } from 'react-hot-toast';
 import { useRouter } from 'next/navigation';
 import { useCallback, useState } from 'react';
 
-import Heading from '../components/Heading';
-import Container from '../components/Container';
-import ListingCard from '../components/listings/ListingCard';
+import Heading from '@/app/components/Heading';
+import Container from '@/app/components/Container';
+import ListingCard from '@/app/components/listings/ListingCard';
 
 import { SafeListing, SafeUser } from '@/app/types';
 
