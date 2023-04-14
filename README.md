@@ -1,8 +1,8 @@
 # Airbnb Clone Base
 
-This project was created watching and following this [video](https://www.youtube.com/watch?v=c_-b_isI4vg)
+This project was created watching and following this [video](https://www.youtube.com/watch?v=c_-b_isI4vg){:target="\_blank"}
 
-You can see the project working here: [Airbnb Clone Base](https://test-project-airbnb-base.vercel.app/)
+You can see the project working here: [Airbnb Clone Base](https://test-project-airbnb-base.vercel.app/){:target="\_blank"}
 
 ## To run it:
 
